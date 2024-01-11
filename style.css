@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbarfirst{
+    display: flex;
+    align-items: center;
+}
+
+.logoimg{
+    width: 36px;
+    height: auto;
+}
+
+.navsearch{
+    margin-left: 11px;
+    width: 280px;
+    height: 34px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(223 230 233);
+    padding-left: 7px;
+}
+
+.material-icons{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+.navmypic{
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.navbarthird{
+    margin-left: 51px;
+}
+
+.midnav{
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+.mainbody{
+    display: flex;
+    justify-content: center ;
+    padding-top: 23px;
+}
+
+main{
+    width: 100%;
+    height: 95vh;
+    background-color: #f9f5f1;
+}
+
+.leftside{
+    width: 17vw;
+    background-color: white;
+    border:  1px solid rgb(207, 207, 207);
+}
+
+.profile{
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.profilecover{
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+.profiledp{
+    width: 70px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 45px;
+    position: relative;
+    bottom: 42px;
+}
+
+.profiletxt{
+    position: relative;
+    bottom: 24px;
+}
+
+.profilehead{
+    font-weight: 600;
+}
+
+.profilebody{
+    font-size: small;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+
+.leftconnections{    
+    height: 45px;
+    padding: 7px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.firstspan{
+    font-size: smaller;
+}
+
+.secspan{
+    position: relative;
+    left: 92px;
+    color: rgb(0, 76, 255);
+    font-weight: bold;
+} 
+
+
+
+.leftpara{
+    font-size: small;
+    font-weight: bold;
+}
+
+.leftpart3{
+    margin-top: 12px;
+    height: 63px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.leftpart3first{
+    font-size: small;
+    font-weight: 100;
+    color: gray;
+    padding-left: 5px;
+}
+
+.leftpart3sec{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 7px;
+    line-height: 27px;
+    padding-left: 5px;
+}
+
+.leftitems{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    border-radius: 2px 6px 0px 0px;
+}
+
+.leftitems > div{
+    width: 7px;
+}
+
+.leftitems > span{
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.leftside2{
+    width: 17vw;
+    height: auto;
+    background-color: white;
+    margin-top: 12px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.leftside2items{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.leftside2items > a {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 55, 255);
+    margin-left: 5px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+
+.leftside2itemsicons{
+    position: relative;
+    left: 166px;
+}
+
+.leftside2heading{
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+
+
+
+.betleftmid{
+    width: 23px;
+}
+
+
+
+
+.middlepart{
+    width: 42vw;
+}
+
+
+.middleparttop{
+    background-color: white;
+    border:  1px solid rgb(207, 207, 207);
+
+}
+
+.middleparttopsecano{
+    width: 110px;
+}
+
+.middleparttopfirst{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.middleparttopfirst > img{
+    width: 48px;
+    border-radius: 23px;
+}
+
+.middleparttopfirst > button{
+    width: 467px;
+    height: 48px;
+    border-radius: 23px;
+    border: 1px solid gray;
+    margin-left: 12px;
+}
+
+.middleparttopsec{
+    display: flex;
+    justify-content: center;
+}
+
+.middleparttopsec > div{
+    display: flex;
+    align-items: center;
+    height: 49px;
+}
+
+.middleparttopsec > div > span{
+    margin-right: 11px;
+}
+
+
+
+.middlepartmid{
+    border: 0.5px solid rgb(207, 207, 207);
+    margin-top: 13px;
+}
+
+
+
+.middlepartbottom{
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 7px;
+    margin-top: 12px;
+    background-color: white;
+}
+
+.middlepartbottomfirst2{
+    display: flex;
+    margin-left: 7px;
+}
+
+.middlepartbottomfirst{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.middlepartbottomfirst > img{
+    width: 48px;
+    height: auto;
+
+}
+
+.middlepartbottomfirst3 > p , .middlepartbottomfirst3 > span{
+    font-size: small;
+    color: gray;
+}
+
+
+.middlepartbottomfirstmid{
+    width: 280px;
+}
+
+
+.middlepartbottomsec{
+    border: 1px solid rgb(207, 207, 207) ;
+    border-radius: 4px;
+    width: 95%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.middlepartbottomsec > h4{  
+    margin: 7px;
+}
+
+.middlepartbottomsec > div{
+    text-align: center ;
+    margin-top: 17px;
+    line-height: 37px;
+    padding-bottom: 17px;
+}
+
+.middlepartbottomsec > p{
+    font-size: small;
+    color: gray ;
+    margin-left: 7px;
+    margin-bottom: 12px;
+}
+
+
+.middlepartbottomsecbutton{
+    width: 430px;
+    height: 29px;
+    background-color: white;
+    border: 1.5px solid rgb(0, 145, 255);
+    font-weight: bold;
+    color: rgb(0, 145, 255);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.middlepartbottomano{
+    font-size: small;
+    color: gray ;
+    text-align: right;
+    margin: 5px;
+    margin-right: 17px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.middlepartbottomthird{
+    display: flex;
+    justify-content: center;
+}
+
+.middlepartbottomthird > div{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+.middlepartbottomano2{
+    width: 17px;
+}
+
+
+
+
+
+
+
+
+
+.rightpart{
+    margin-left: 23px;
+}
+
+.rightparttop{
+    background-color: white;
+    width: 25vw;
+}
+
+.rightparttop1{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    padding-left: 20px;
+}
+
+.rightparttop1mid{
+    width: 152px;
+}
+
+.rightparttop2{
+    margin-left: 33px;
+    line-height: 24px;
+}
+
+.rightparttop2para{
+    color: gray;
+    font-size: 14px;
+}
+
+.rightparttop3{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    padding-bottom: 11px;
+}
+
+.rightparttop3mid{
+    width: 1px;
+}
